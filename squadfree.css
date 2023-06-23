@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: url("img/montagne6'.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 650px;
+	display: flex;	
+	flex-direction: column;
+	justify-content: space-between;
+}
+header .titre h2{
+	font-size: 4em;
+}
+header .titre h2, header .titre p{
+	text-shadow: 1px 1px 1px #333;
+}
+header .titre a img{
+	transition: 0.4s;
+}
+header .titre a:hover img{
+	transform: translateY(6px);
+}
+header .titre a:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+header .navbar-colored{
+	background-color: #4b99bc;
+}
+/*===========================================
+  _______________ANIMATION___________________*/
+header .titre{
+	top: 50%;
+	left: 50%;
+
+	animation-name: chgmt-position;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	-o-animation-name: chgmt-position;
+	-o-animation-duration: 2s;
+	-o-animation-timing-function: ease;
+	-moz-animation-name: chgmt-position;
+	-moz-animation-duration: 2s;
+	-moz-animation-timing-function: ease;
+	-webkit-animation-name: chgmt-position;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease;
+}
+@-keyframes chgmt-position{
+	from {top: 65%; opacity: 0}
+	to {top: 50%; opacity: 1}
+}
+@-webkit-keyframes chgmt-position{
+	from {top: 65%; opacity: 0}
+	to {top: 50%; opacity: 1}
+}
+@-o-keyframes chgmt-position{
+	from {top: 65%; opacity: 0}
+	to {top: 50%; opacity: 1}
+}
+@-moz-keyframes chgmt-position{
+	from {top: 65%; opacity: 0}
+	to {top: 50%; opacity: 1}
+}
+
+/*  ==========================================
+					  TITRE
+	========================================== */
+h2, #bilan-service #bilan-service1 .bilan h3{
+	color: #2f4d5a;
+}
+h3{
+	color: #333;
+}
+#bilan-service #bilan-service1 .bilan p, #bilan-service #bilan-service1 .bilan p span{
+	color: #5e94b9;
+}
+/*  ==========================================
+				   SECTION ABOUT-US
+	================        ================== */
+#about-us{
+	background-image: url("img/abstrait-geometrique-3d.png");
+}	
+#about-us .bouton-about button{
+	background-color: #4b99bc;
+}
+
+/*  ==========================================
+				SECTION SERVICES
+	================        ================== */
+#bilan-service{
+	background-image: url("img/fond-peinture-marbre-bleu.png");
+	background-attachment: fixed;
+}	
+#bilan-service1{
+	background-color: #f4f9fc;
+}	
+
+/*  ==========================================
+				SECTION PORTFOLIO
+	================        ================== */
+#testimonial{
+	background-color: #f4f9fc;
+}	
+#portfolio ul {
+	background-color: #ecf5f9;
+}
+#portfolio ul li{
+	list-style-type: none; ecf5f9
+}	
+#portfolio ul li a{
+	text-decoration: none;
+	color: #333;
+}	
+
+/*  ==========================================
+				  SECTION TEAM
+	================        ================== */
+#team .taille{
+	width: 86%;
+	color: #2f4d5a;
+	bottom: -34px;
+	left: 7%;
+}	
+
+/*  ==========================================
+				  SECTION CONTACT
+	================        ================== */
+#contact{
+	background-color: #f4f9fc;
+}
+#contact .bouton-form{
+	background-color: #4b99bc;
+	color: #fff;
+}
+
+/*  ==========================================
+				  	  FOOTER
+	===================    =================== */
+footer{
+	background-color: #263f49;
+}
+footer h3{
+	font-size: 1.4em;
+}	
+footer p{
+	font-size: 13px;
+	font-weight: 400;
+}	
+footer .contact{
+	border-top: 4px solid #4b99bc;
+	color: #263f49;
+	bottom: 50px;
+}
+footer .chevron ,footer .bootstrapmade{
+	color: #4b99bc;
+}
+footer .bouton-form{
+	background-color: #4b99bc;
+}
+footer .bootstrapmade:hover{
+	opacity: 0.7;
+}
